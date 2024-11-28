@@ -1,0 +1,96 @@
+@import '_vars.scss';
+
+// FLEX
+.flex {
+    display: flex;
+}
+
+.f-jcsb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-jcsa {
+    display: flex;
+    justify-content: space-around;
+}
+
+.f-center {
+    display: flex;
+    align-items: center;
+}
+
+.f-jcsb-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-jcsa-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.f-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-dc {
+    display: flex;
+    flex-direction: column;
+}
+
+.f-dc-jcsb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.f-dc-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f-dc-center-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+
+
+// IMAGE
+.img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    pointer-events: none;
+}
+
+.img-contain {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    pointer-events: none;
+}
+
+
+
+.hidden {
+    overflow: hidden;
+}
+
+.none {
+    display: none;
+}

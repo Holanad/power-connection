@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Jost Light';
+  src: url("../fonts/Jost-Light.ttf");
+  src: local("Jost Light"), local("Jost-Light"), url("../fonts/Jost-Light.ttf") format("truetype"), url("../fonts/Jost-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost-Light.woff") format("woff"), url("../fonts/Jost-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost Regular';
+  src: url("../fonts/Jost-Regular.ttf");
+  src: local("Jost Bold"), local("Jost-Bold"), url("../fonts/Jost-Regular.ttf") format("truetype"), url("../fonts/Jost-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost-Regular.woff") format("woff"), url("../fonts/Jost-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost Medium';
+  src: url("../fonts/Jost-Medium.ttf");
+  src: local("Inter Medium"), local("Jost-Medium"), url("../fonts/Jost-Medium.ttf") format("truetype"), url("../fonts/Jost-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost-Medium.woff") format("woff"), url("../fonts/Jost-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost SemiBold';
+  src: url("../fonts/Jost-SemiBold.ttf");
+  src: local("Jost SemiBold"), local("Jost-SemiBold"), url("../fonts/Jost-SemiBold.ttf") format("truetype"), url("../fonts/Jost-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost-SemiBold.woff") format("woff"), url("../fonts/Jost-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost Bold';
+  src: url("../fonts/Jost-Bold.ttf");
+  src: local("Jost Bold"), local("Jost-Bold"), url("../fonts/Jost-Bold.ttf") format("truetype"), url("../fonts/Jost-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost-Bold.woff") format("woff"), url("../fonts/Jost-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Unbounded Regular';
+  src: url("../fonts/Jost-Unbounded.ttf");
+  src: local("Unbounded Bold"), local("Unbounded-Bold"), url("../fonts/Unbounded-Regular.ttf") format("truetype"), url("../fonts/Unbounded-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Unbounded-Regular.woff") format("woff"), url("../fonts/Unbounded-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Unbounded Medium';
+  src: url("../fonts/Jost-Medium.ttf");
+  src: local("Unbounded Medium"), local("Unbounded-Medium"), url("../fonts/Unbounded-Medium.ttf") format("truetype"), url("../fonts/Unbounded-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Unbounded-Medium.woff") format("woff"), url("../fonts/Unbounded-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+/*# sourceMappingURL=fonts.css.map */

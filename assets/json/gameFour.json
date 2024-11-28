@@ -1,0 +1,37 @@
+{
+    "item1": {
+        "answer": "Газ",
+        "image": "assets/img/gameFour/gaz.jpg",
+        "class": "gas"
+    },
+    "item2": {
+        "answer": "Солнце",
+        "image": "assets/img/gameFour/solnje.jpg",
+        "class": "sun"
+    },
+    "item3": {
+        "answer": "Торф",
+        "image": "assets/img/gameFour/torf.jpg",
+        "class": "torf"
+    },
+    "item4": {
+        "answer": "Ветер",
+        "image": "assets/img/gameFour/veter.jpg",
+        "class": "veter"
+    },
+    "item5": {
+        "answer": "Нефть",
+        "image": "assets/img/gameFour/neft.jpg",
+        "class": "neft"
+    },
+    "item6": {
+        "answer": "Вода",
+        "image": "assets/img/gameFour/voda.jpg",
+        "class": "water"
+    },
+    "item7": {
+        "answer": "Уголь",
+        "image": "assets/img/gameFour/ugol.jpg",
+        "class": "ugol"
+    }
+}
