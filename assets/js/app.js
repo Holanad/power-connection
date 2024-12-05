@@ -126,7 +126,7 @@ $(document).ready(function() {
 
     function loadGame() {
         $.ajax({
-            url: "assets/json/loadGame.json",
+            url: "https://raw.githubusercontent.com/Holanad/power-connection/main/assets/json/loadGame.json",
             dataType: "json",
             success: function(data) {
                 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
@@ -327,12 +327,13 @@ $(document).ready(function() {
                                     $('.homePage-rooms-item[data-game="gameRebus"]').addClass('open completed')
                                     $('.homePage-rooms-item[data-game="gameRebus"]').find('.key').addClass('anim');
 
-                                    $('.homePage-rooms-item[data-game="gameTest"]').addClass('open')
+                                    $('.homePage-rooms-item[data-game="gameTest"]').addClass('open completed')
                                     $('.homePage-rooms-item[data-game="gameTest"]').find('.key').addClass('anim');
                                     setTimeout(() => {
                                         $('.homePage-wrapper').addClass('opacity');
                                         setTimeout(() => {
                                             $('.awardEnd').addClass('open');
+                                            homePageSettings();
                                         }, 1000);
                                     }, 1500);
                                 }, 500);
@@ -358,7 +359,7 @@ $(document).ready(function() {
     loadGame();
 
     $.ajax({
-        url: "assets/json/begin.json",
+        url: "https://raw.githubusercontent.com/Holanad/power-connection/main/assets/json/begin.json",
         dataType: "json",
         success: function(data) {
             function beginGame() {
@@ -574,7 +575,7 @@ $(document).ready(function() {
         })
         function findThing() {
             $.ajax({
-                url: "assets/json/gameTwo.json",
+                url: "https://raw.githubusercontent.com/Holanad/power-connection/main/assets/json/gameTwo.json",
                 dataType: "json",
                 success: function(data) {
                     $('.gameTwo-box-message__text').html(data['item1'].message)
@@ -642,7 +643,7 @@ $(document).ready(function() {
         })
         function gamaPlay() {
             $.ajax({
-                url: "assets/json/gameThree.json",
+                url: "https://raw.githubusercontent.com/Holanad/power-connection/main/assets/json/gameThree.json",
                 dataType: "json",
                 success: function(data) {
                     $('.gameThree-main .gameThree-start-rule__text').text(data['item1'].message)
@@ -727,7 +728,7 @@ $(document).ready(function() {
         })
         function gamaPlay() {
             $.ajax({
-                url: "assets/json/gameFour.json",
+                url: "https://raw.githubusercontent.com/Holanad/power-connection/main/assets/json/gameFour.json",
                 dataType: "json",
                 success: function(data) {
                     let count = 1;
@@ -865,7 +866,7 @@ $(document).ready(function() {
         })
         function gamaPlay() {
             $.ajax({
-                url: "assets/json/gameFive.json",
+                url: "https://raw.githubusercontent.com/Holanad/power-connection/main/assets/json/gameFive.json",
                 dataType: "json",
                 success: function(data) {
                     $('.gameFive-main-item__answer').text(data['item1'].question)
